@@ -8,7 +8,7 @@ def bisec(a, b):
     while ((b-a) >= 0.01):
         
         #cari nilai tengah
-        c = (a+b)/2
+        c = (a+b)/2 
         
         #check apakah nilai tengah mendekati nol
         if (func(c) == 0.0):
